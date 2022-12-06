@@ -12,7 +12,7 @@ class PhotoViewHolder(
 ) : RecyclerView.ViewHolder(binding.root){
     fun bind(galleryItem: GalleryItem){
         binding.itemImageView.load(galleryItem.url){
-            placeholder(R.drawable.orbleble)
+            placeholder(R.drawable.thinkcat_small)
         }
     }
 }
